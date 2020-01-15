@@ -3,7 +3,124 @@
     margin: 0;
 }
 
+body {
+    color: #f8f8f8;
+    font-family: Raleway;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
 .container {
     width: 1500px;
     margin: 0 auto;
+}
+
+header {
+    height: 700px;
+    background-color: #abeafa;
+}
+
+.header_top {
+    height: 135px;
+}
+
+.header_top .logo {
+    display: block;
+    width: 125px;
+    height: 111px;
+    background: url(img/surfhouse_logo.png);
+    margin-left: 234px;
+    margin-top: 24px;
+    float: left;
+}
+
+.header_top .social-menu {
+    float: right;
+    width: 128px;
+    height: 16px;
+    margin-top: 50px;
+    margin-right: 189px;
+}
+
+.header_top .social-menu a {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    color: #f8f8f8;
+}
+
+.header_bottom .welcome {
+    float: left;
+    width: 270px;
+    height: 300px;
+    background-color: #fff51f;
+    margin-left: 165px;
+    margin-top: 201px;
+    margin-bottom: 64px;
+}
+
+.header_bottom .welcome h3 {
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 0 25px;
+    margin-top: 82px;
+    margin-bottom: 24px;
+    font-family: raleway, sans-serif;
+
+}
+
+.header_bottom .welcome p {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 14px;
+    padding: 0 22px;
+    font-family: raleway, sans-serif;
+}
+
+.header_bottom .promo {
+    float: right;
+    width: 300px;
+    height: 143px;
+    margin-top: 109px;
+    margin-right: 287px;
+    margin-bottom: 87px;
+}
+
+.header_bottom .promo h3 {
+    color: #fff51f;
+    font-family: "Myriad Pro";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.header_bottom .promo p {
+    color: #fff51f;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.header_bottom .catalog_link {
+    display: block;
+    width: 124px;
+    height: 49px;
+    background-color: #fff51f;
+    float: right;
+    margin-bottom: 177px;
+    margin-right: 460px;
+    color: #000000;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 49px;
+    text-align: center;
 }
