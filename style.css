@@ -124,3 +124,18 @@ header {
     line-height: 49px;
     text-align: center;
 }
+
+.top-menu {
+    width: 270px;
+height: 66px;
+background-color: #333333;
+}
+
+.top-menu li {
+    color: #ffffff;
+font-family: "Myriad Pro";
+font-size: 14px;
+font-weight: 400;
+line-height: 32px;
+text-transform: uppercase;
+}
