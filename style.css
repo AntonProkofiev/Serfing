@@ -1,12 +1,13 @@
 * {
     padding: 0;
     margin: 0;
-     box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-    color: #f8f8f8;    
+    color: #f8f8f8;
     font-family: Roboto, sans-serif;
+    background-color: #f8f8f8;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
 }
 
 a {
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 header {
@@ -50,6 +51,14 @@ header {
     width: 16px;
     height: 16px;
     color: #f8f8f8;
+}
+
+.header_top .social-menu a:hover {
+    color: #000000;
+}
+
+.header_top .social-menu a:active {
+    color: #fff51f;
 }
 
 .header_bottom .welcome {
@@ -132,11 +141,11 @@ header {
     float: left;
 }
 
-.menu .menu_heading a{
+.menu .menu_heading a {
     width: 270px;
     height: 66px;
     background-color: #333333;
-    margin-left: 165px;    
+    margin-left: 165px;
     font-family: "Myriad Pro";
     font-size: 14px;
     font-weight: 400;
@@ -145,9 +154,9 @@ header {
     padding-left: 43px;
     padding-top: 20px;
     position: relative;
-    top: -20px;  
-    display: block;  
-    color: #ffffff;   
+    top: -20px;
+    display: block;
+    color: #ffffff;
 }
 
 .menu ul {
@@ -155,11 +164,11 @@ header {
     margin-left: 165px;
     background-color: #26d2fc;
     position: relative;
-    top: -20px;    
-    list-style: none; 
+    top: -20px;
+    list-style: none;
 }
 
-.menu ul li a{
+.menu ul li a {
     display: block;
     width: 270px;
     height: 43px;
@@ -167,9 +176,9 @@ header {
     font-size: 14px;
     font-weight: 400;
     line-height: 36px;
-    text-transform: uppercase;          
+    text-transform: uppercase;
     padding-left: 43px;
-    padding-top: 8px; 
+    padding-top: 8px;
     color: #333333;
 }
 
@@ -183,24 +192,24 @@ header {
 
 .for-sale {
     width: 270px;
-height: 300px;
-background-color: #e0e0e0;
-float: left;
-margin-left: 165px;
+    height: 300px;
+    background-color: #e0e0e0;
+    float: left;
+    margin-left: 165px;
 }
 
 .for-sale .sale-promo {
     width: 94px;
-height: 97px;
-color: #333333;
-font-family: "Myriad Pro";
-font-size: 36px;
-font-weight: 400;
-font-style: italic;
-line-height: 36px;
-text-transform: uppercase;
-margin-left: 142px;
-margin-top: 129px;
+    height: 97px;
+    color: #333333;
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-left: 142px;
+    margin-top: 129px;
 }
 
 .content .new_products {
@@ -210,17 +219,41 @@ margin-top: 129px;
     position: relative;
     top: -20px;
     float: right;
-    margin-right: 165px;       
+    margin-right: 165px;
+    margin-bottom: 66px;
+
 }
 
-.content .new_products h3{    
-color: #707070;
-font-family: "Myriad Pro";
-font-size: 22px;
-font-weight: 400;
-text-transform: uppercase;
-padding-top: 30px;
-padding-left: 27px;
+.content .new_products h3 {
+    color: #707070;
+    font-family: "Myriad Pro";
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-left: 27px;
+}
+
+.content .top_products,
+.content .sale_products {
+    width: 870px;
+    height: 400px;
+    background-color: #f8f8f8;
+    float: right;
+    margin-right: 165px;
+    text-transform: uppercase;
+    margin-bottom: 66px;
+}
+
+.content .top_products h3,
+.content .sale_products h3 {
+    color: #707070;
+    font-family: "Myriad Pro";
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-left: 27px;
 }
 
 .brend-item-full {
@@ -229,46 +262,82 @@ padding-left: 27px;
 }
 
 .brend-item {
-     float: left;
+    float: left;
     margin-top: 33px;
-    margin-right: 20px; 
+    margin-right: 20px;
     background-color: #ffffff;
+    height: 315px;
+
 }
 
- .brend-item:nth-child(3n+3) {
+.brend-item:nth-child(3n+3) {
     margin-right: 0;
-}  
+}
+
+.new_products .brend-item:first-child::before {
+    content: 'new';
+    width: 46px;
+    height: 46px;
+    float: right;
+    background: url(img/Corner.png);
+    font-size: 9px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.new_products .brend-item:nth-child(2)::before {
+    content: 'new';
+    width: 46px;
+    height: 46px;
+    float: right;
+    background: url(img/Corner_yellow.png);
+    font-size: 9px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
 
 .brend-item .brend-photo {
     width: 250px;
-height: 235px;
-background-color: #eaeaea;
-margin: 10px;
+    height: 235px;
+    background-color: #eaeaea;
+    margin: 10px;
 }
 
 .brend-item .brend-description {
     width: 270px;
-height: 80px;
-background-color: #ffffff;
+    height: 80px;
+    background-color: #ffffff;
 }
 
-.brend-description .brend-name {    
-color: #333333;
-font-family: "Myriad Pro";
-font-size: 14px;
-font-weight: 400;
-line-height: 18px;
-float: left;
-margin-top: 25px;
-margin-left: 26px;
+.brend-description .brend-name {
+    color: #333333;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 26px;
 }
 
-.brend-description .brend-price {    
-color: #333333;
-font-family: "Myriad Pro";
-font-size: 18px;
-font-weight: 400;
-float: right;
-margin-top: 28px;
-margin-right: 15px;
+.brend-description .brend-price {
+    color: #333333;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: 400;
+    float: right;
+    margin-top: 28px;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.brend-item .best_price {
+    color: #e24602;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
 }
