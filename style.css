@@ -344,9 +344,25 @@ header {
     text-decoration: line-through;
 }
 
-.brend-name {
+.brend-name-bottom {
     width: 1170px;
     height: 160px;
     background-color: #ffffff;
     clear: both;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.brend-name-logo {
+    width: 1142px;
+    height: 26px;
+    background: url("img/brands.png") repeat-x;
+    margin: 0 auto;
+}
+
+.main-bottom {
+    width: 1170px;
+    height: 350px;
+    background-color: #eaeaea;
+    margin: 0 auto;
 }
