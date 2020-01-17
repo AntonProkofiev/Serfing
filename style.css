@@ -121,6 +121,16 @@ header {
     line-height: 24px;
 }
 
+.header_bottom .promo + a:hover {
+    outline: 2px solid #333333;
+}
+
+.header_bottom .promo + a:active {
+    outline: 2px solid #333333;
+    background-color: #e24602;
+    color: #333333;
+}
+
 .header_bottom .catalog_link {
     display: block;
     width: 124px;
