@@ -327,6 +327,15 @@ header {
     margin-left: 26px;
 }
 
+.brend-description .brend-name a:hover {
+    color: #e24602;
+
+}
+
+brend-description .brend-name a:active {
+    color: #fff51f;
+}
+
 .brend-description .brend-price {
     color: #333333;
     font-family: "Myriad Pro";
@@ -419,25 +428,23 @@ header {
     margin-right: 0;
 }
 
-.social-menu-bottom {}
-
-.social-menu-bottom-fb {
+.social-menu-bottom a {
+    display: block;
     width: 390px;
     height: 150px;
+}
+
+.social-menu-bottom-fb {
     background-color: #3b5997;
     float: left;
 }
 
 .social-menu-bottom-tw {
-    width: 390px;
-    height: 150px;
     background-color: #3fccfd;
     float: left;
 }
 
 .social-menu-bottom-pt {
-    width: 390px;
-    height: 150px;
     background-color: #cb2027;
     float: left;
 }
@@ -616,6 +623,7 @@ footer {
 .footer-bottom .footer-social-menu {
     float: right;
     margin-right: 191px;
+    margin-top: 15px;
 
 }
 
