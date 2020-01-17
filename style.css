@@ -366,3 +366,24 @@ header {
     background-color: #eaeaea;
     margin: 0 auto;
 }
+
+.main-bottom h3 {
+    text-align: center;
+    margin-top: 53px;
+    color: #333333;
+    font-family: "Myriad Pro";
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.main-bottom h3 .hachtag {
+    font-size: 18px;
+}
+
+.main-bottom h3 a {
+    text-decoration: none;
+    color: #333333;
+    font-family: "Myriad Pro";
+    font-size: 22px;
+    font-weight: 400;
+}
