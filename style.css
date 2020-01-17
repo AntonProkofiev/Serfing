@@ -369,7 +369,7 @@ header {
 
 .main-bottom h3 {
     text-align: center;
-    margin-top: 53px;
+    padding-top: 53px;
     color: #333333;
     font-family: "Myriad Pro";
     font-size: 22px;
@@ -386,4 +386,73 @@ header {
     font-family: "Myriad Pro";
     font-size: 22px;
     font-weight: 400;
+}
+
+.main-bottom h3 a:hover {
+    color: #e24602;
+}
+
+.main-bottom h3 a:active {
+    color: #fff51f;
+}
+
+.carousel {
+    background-color: #eaeaea;
+
+}
+
+.carousel .carousel-items {
+    width: 1170px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.carousel .carousel-item {
+    float: left;
+    margin-right: 12px;
+}
+
+.carousel .carousel-item:last-child {
+    margin-right: 0;
+}
+
+.social-menu-bottom {}
+
+.social-menu-bottom-fb {
+    width: 390px;
+    height: 150px;
+    background-color: #3b5997;
+    float: left;
+}
+
+.social-menu-bottom-tw {
+    width: 390px;
+    height: 150px;
+    background-color: #3fccfd;
+    float: left;
+}
+
+.social-menu-bottom-pt {
+    width: 390px;
+    height: 150px;
+    background-color: #cb2027;
+    float: left;
+}
+
+.social-menu-bottom a {
+    color: #ffffff;
+}
+
+.social-menu-bottom a i {
+    font-size: 52px;
+    margin-top: 49px;
+    margin-left: 163px;
+}
+
+footer {
+    width: 1500px;
+    height: 351px;
+    background-color: #373737;
+    clear: both;
 }
