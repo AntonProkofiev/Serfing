@@ -201,6 +201,10 @@ header {
     color: #ffffff;
 }
 
+.menu ul li a:active {
+    color: #fff51f;
+}
+
 
 .for-sale {
     width: 270px;
