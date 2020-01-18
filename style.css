@@ -196,12 +196,12 @@ header {
 
 
 
-.menu ul li a:hover {
+.menu a:hover {
     background-color: #333333;
     color: #ffffff;
 }
 
-.menu ul li a:active {
+.menu a:active {
     color: #fff51f;
 }
 
