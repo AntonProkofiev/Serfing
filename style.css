@@ -285,8 +285,6 @@ header {
     margin-top: 33px;
     margin-right: 20px;
     background-color: #ffffff;
-    height: 315px;
-
 }
 
 .brend-item:hover {
@@ -452,6 +450,10 @@ brend-description .brend-name a:active {
 .carousel .carousel-item {
     float: left;
     margin-right: 12px;
+}
+
+.carousel .carousel-item:hover {
+    box-shadow: 0 0 10px #cccccc;
 }
 
 .carousel .carousel-item:last-child {
