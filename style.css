@@ -120,6 +120,7 @@ header {
 
 .header_bottom .promo + a:hover {
     outline: 2px solid #333333;
+    color: #e24602;
 }
 
 .header_bottom .promo + a:active {
@@ -138,13 +139,13 @@ header {
     float: right;
     margin-bottom: 177px;
     margin-right: 460px;
-    color: #000000;
     font-family: "Myriad Pro";
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 49px;
     text-align: center;
+    color: #000000;
 }
 
 .menu {
@@ -165,7 +166,6 @@ header {
     position: relative;
     top: -20px;
     display: block;
-    color: #ffffff;
 }
 
 .menu ul {
@@ -223,8 +223,8 @@ header {
 }
 
 .content .new_products {
-    width: 870px;
     background-color: #f8f8f8;
+    width: 870px;
     position: relative;
     top: -20px;
     float: right;
@@ -245,7 +245,6 @@ header {
 .content .sale_products {
     width: 870px;
     height: 400px;
-    background-color: #f8f8f8;
     float: right;
     margin-right: 165px;
     text-transform: uppercase;
@@ -461,10 +460,6 @@ brend-description .brend-name a:active {
     float: left;
 }
 
-.social-menu-bottom a {
-    color: #ffffff;
-}
-
 .social-menu-bottom a i {
     font-size: 52px;
     margin-top: 49px;
@@ -529,7 +524,6 @@ footer {
 
 .footer-newsletter p {
     width: 195px;
-    color: #f8f8f8;
     font-size: 12px;
     line-height: 12px;
     margin-bottom: 20px;
@@ -554,10 +548,10 @@ footer {
     width: 71px;
     height: 30px;
     background-color: #000000;
-    color: #ffffff;
     font-size: 12px;
     line-height: 21px;
     text-transform: uppercase;
+    color: #ffffff;
 }
 
 .footer-newsletter input[type="submit"]:hover {
@@ -600,13 +594,11 @@ footer {
 
 .about-us p {
     width: 232px;
-    color: #ffffff;
     font-size: 12px;
     line-height: 12px;
 }
 
 .about-us span {
-    color: #ffffff;
     font-size: 14px;
     line-height: 36px;
     margin-right: 19px;
