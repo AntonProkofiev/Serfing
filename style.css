@@ -232,14 +232,12 @@ header {
 
 .content .new_products {
     width: 870px;
-
     background-color: #f8f8f8;
     position: relative;
     top: -20px;
-    float: left float: right;
-    margin-left: 40px;
+    float: right;
     margin-bottom: 66px;
-
+    margin-right: 165px;
 }
 
 .content .new_products h3 {
