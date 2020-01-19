@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 1500px;
+    width:  !00%;
     margin: 0 auto;
 }
 
@@ -227,9 +227,10 @@ header {
     width: 870px;
     position: relative;
     top: -20px;
-    float: right;
+    float: left;
     margin-bottom: 66px;
     margin-right: 165px;
+    margin-left: 30px;
 }
 
 .content .new_products h3 {
@@ -241,14 +242,24 @@ header {
     padding-left: 27px;
 }
 
-.content .top_products,
-.content .sale_products {
+.content .top_products {
     width: 870px;
     height: 400px;
-    float: right;
+    float: left;
     margin-right: 165px;
     text-transform: uppercase;
     margin-bottom: 66px;
+    margin-left: 30px;
+}
+
+.content .sale_products {
+    width: 870px;
+    height: 400px;
+    float: left;
+    margin-right: 165px;
+    text-transform: uppercase;
+    margin-bottom: 66px;
+    margin-left: 475px;
 }
 
 .content .top_products h3,
