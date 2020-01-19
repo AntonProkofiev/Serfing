@@ -224,7 +224,7 @@ header {
 
 .content .new_products {
     background-color: #f8f8f8;
-    width: 870px;
+
     position: relative;
     top: -20px;
     float: left;
@@ -243,8 +243,7 @@ header {
 }
 
 .content .top_products {
-    width: 870px;
-    height: 400px;
+
     float: left;
     margin-right: 165px;
     text-transform: uppercase;
@@ -253,8 +252,7 @@ header {
 }
 
 .content .sale_products {
-    width: 870px;
-    height: 400px;
+
     float: left;
     margin-right: 165px;
     text-transform: uppercase;
@@ -268,7 +266,6 @@ header {
     font-family: "Myriad Pro";
     font-size: 22px;
     text-transform: uppercase;
-
     padding-left: 27px;
 }
 
