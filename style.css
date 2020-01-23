@@ -5,6 +5,7 @@
 }
 
 body {
+
     color: #f8f8f8;
     font-family: Roboto, sans-serif;
     background-color: #f8f8f8;
@@ -14,7 +15,7 @@ body {
 }
 
 .container {
-    width:  !00%;
+    width: 1500px;
     margin: 0 auto;
 }
 
@@ -118,12 +119,12 @@ header {
     line-height: 24px;
 }
 
-.header_bottom .promo + a:hover {
+.header_bottom .promo a:hover {
     outline: 2px solid #333333;
     color: #e24602;
 }
 
-.header_bottom .promo + a:active {
+.header_bottom .promo a:active {
     background-color: #e24602;
     color: #333333;
     position: relative;
@@ -134,11 +135,9 @@ header {
 .header_bottom .catalog_link {
     display: block;
     width: 124px;
-    height: 49px;
     background-color: #fff51f;
-    float: right;
-    margin-bottom: 177px;
-    margin-right: 460px;
+    margin-top: 87px;
+    margin-right: 173px;
     font-family: "Myriad Pro";
     font-size: 14px;
     text-transform: uppercase;
@@ -283,11 +282,11 @@ header {
     box-shadow: 0 0 10px #cccccc;
 }
 
-.brend-item:nth-child(3n+3) {
+.brend-item:nth-child(3n+1) {
     margin-right: 0;
 }
 
-.new_products .brend-item:first-child::before {
+.new_products .brend-item:nth-child(2)::before {
     content: 'new';
     width: 46px;
     height: 46px;
@@ -300,7 +299,7 @@ header {
     text-align: center;
 }
 
-.new_products .brend-item:nth-child(2)::before {
+.new_products .brend-item:nth-child(3)::before {
     content: 'new';
     width: 46px;
     height: 46px;
@@ -359,6 +358,7 @@ brend-description .brend-name a:active {
     margin-top: 28px;
     margin-right: 15px;
     text-align: right;
+    line-height: 18px;
 }
 
 .brend-item .best_price {
@@ -367,6 +367,8 @@ brend-description .brend-name a:active {
     font-size: 14px;
     text-decoration: line-through;
 }
+
+
 
 .brend-name-bottom {
     width: 1170px;
