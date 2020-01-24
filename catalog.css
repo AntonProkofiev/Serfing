@@ -52,6 +52,19 @@ header .header_top .social-menu a:hover {
 header .header_top .social-menu a:active {
   color: #fff51f;
 }
+header .header_top .social-menu select {
+  background-color: #abeafa;
+  color: #ffffff;
+  font-family: Raleway;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  vertical-align: top;
+}
+header .header_top .social-menu select option {
+  background-color: transparent;
+  border: 0;
+}
 main .menu {
   float: left;
   margin-right: 30px;
