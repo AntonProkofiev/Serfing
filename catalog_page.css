@@ -41,7 +41,7 @@ header .social-menu a:last-child {
   background-color: #26d2fc;
   margin-left: 165px;
 }
-.main-menu .nav-link {
+.main-menu .nav-item .nav-link {
   display: block;
   height: 43px;
   padding-left: 42px;
@@ -50,12 +50,26 @@ header .social-menu a:last-child {
   line-height: 36px;
   text-transform: uppercase;
 }
-.main-menu .nav-link:hover {
+.main-menu .nav-item .nav-link:hover {
   color: #fff;
   background-color: #333;
 }
-.main-menu .nav-link:active {
+.main-menu .nav-item .nav-link:active {
   color: #ccc;
+}
+.main-menu .nav-item .dropdown-menu {
+  width: 155px;
+  background-color: #75e3fe;
+  padding: 0;
+  margin: 0;
+  list-style: square;
+}
+.main-menu .nav-item .dropdown-menu .dropdown-item {
+  display: block;
+  font-family: "Roboto - Black";
+  font-size: 14px;
+  line-height: 36px;
+  text-transform: uppercase;
 }
 .main-menu .nav-item .nav-link.title {
   height: 66px;
@@ -64,4 +78,7 @@ header .social-menu a:last-child {
   line-height: 55px;
   text-transform: uppercase;
   color: #fff;
+}
+.main-menu .dropright .dropdown-toggle::after {
+  margin-left: 140px;
 }

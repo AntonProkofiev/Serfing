@@ -52,24 +52,43 @@ header {
     background-color: #26d2fc;
     margin-left: 165px;
 
-    .nav-link {
-        display: block;
-        height: 43px;
-        padding-left: 42px;
-        font-family: "Roboto - Black";
-        font-size: 14px;
-        line-height: 36px;
-        text-transform: uppercase;
+    .nav-item {
+        .nav-link {
+            display: block;
+            height: 43px;
+            padding-left: 42px;
+            font-family: "Roboto - Black";
+            font-size: 14px;
+            line-height: 36px;
+            text-transform: uppercase;
 
-        &:hover {
-            color: #fff;
-            background-color: #333;
+            &:hover {
+                color: #fff;
+                background-color: #333;
+            }
+
+            &:active {
+                color: #ccc;
+            }
         }
 
-        &:active {
-            color: #ccc;
+        .dropdown-menu {
+            width: 155px;
+            background-color: #75e3fe;
+            padding: 0;
+            margin: 0;
+            list-style: square;
+
+            .dropdown-item {
+                display: block;
+                font-family: "Roboto - Black";
+                font-size: 14px;
+                line-height: 36px;
+                text-transform: uppercase
+            }
         }
     }
+
 
     .nav-item .nav-link.title {
         height: 66px;
@@ -78,5 +97,13 @@ header {
         line-height: 55px;
         text-transform: uppercase;
         color: #fff;
+    }
+
+    .dropright {
+        .dropdown-toggle {
+            &::after {
+                margin-left: 140px;
+            }
+        }
     }
 }
