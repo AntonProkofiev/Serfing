@@ -46,64 +46,118 @@ header {
 
 //main
 
+.sidebar {
+    .main-menu {
+        width: 270px;
+        background-color: #26d2fc;
+        margin-left: 165px;
+        margin-bottom: 1140px;
 
-.main-menu {
-    width: 270px;
-    background-color: #26d2fc;
-    margin-left: 165px;
-
-    .nav-item {
-        .nav-link {
-            display: block;
-            height: 43px;
-            padding-left: 42px;
-            font-family: "Roboto - Black";
-            font-size: 14px;
-            line-height: 36px;
-            text-transform: uppercase;
-
-            &:hover {
-                color: #fff;
-                background-color: #333;
-            }
-
-            &:active {
-                color: #ccc;
-            }
-        }
-
-        .dropdown-menu {
-            width: 155px;
-            background-color: #75e3fe;
-            padding: 0;
-            margin: 0;
-            list-style: square;
-
-            .dropdown-item {
+        .nav-item {
+            .nav-link {
                 display: block;
+                height: 43px;
+                padding-left: 42px;
                 font-family: "Roboto - Black";
                 font-size: 14px;
                 line-height: 36px;
-                text-transform: uppercase
+                text-transform: uppercase;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #333;
+                }
+
+                &:active {
+                    color: #ccc;
+                }
+            }
+
+            .dropdown-menu {
+                width: 155px;
+                background-color: #75e3fe;
+                padding: 0;
+                margin: 0;
+                list-style: square;
+
+                .dropdown-item {
+                    display: block;
+                    font-family: "Roboto - Black";
+                    font-size: 14px;
+                    line-height: 36px;
+                    text-transform: uppercase
+                }
+            }
+        }
+
+
+        .nav-item .nav-link.title {
+            height: 66px;
+            background-color: #333;
+            font-weight: 700;
+            line-height: 55px;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .dropright {
+            .dropdown-toggle {
+                &::after {
+                    margin-left: 140px;
+                }
             }
         }
     }
 
+    .banner {
+        width: 270px;
+        height: 300px;
+        background-color: #eaeaea;
+        margin-left: 165px;
+        padding-left: 142px;
+        padding-top: 130px;
 
-    .nav-item .nav-link.title {
-        height: 66px;
-        background-color: #333;
-        font-weight: 700;
-        line-height: 55px;
-        text-transform: uppercase;
-        color: #fff;
+        p {
+            color: #333333;
+            font-family: "Raleway - Heavy";
+            font-size: 36px;
+            font-weight: 700;
+            font-style: italic;
+            line-height: 36px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.breadcrumb {
+    background-color: transparent;
+    margin-top: 25px;
+
+    .breadcrumb-item {
+        color: #989898;
+
+        a {
+            &:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+            &:active {
+                background-color: #faef03;
+            }
+        }
     }
 
-    .dropright {
-        .dropdown-toggle {
-            &::after {
-                margin-left: 140px;
-            }
+    .breadcrumb-item + .breadcrumb-item {
+        &::before {
+            content: ">>";
+            background-color: #f8f8f8;
+        }
+    }
+
+    .breadcrumb-item.active {
+        a {
+            background-color: #faef03;
         }
     }
 }

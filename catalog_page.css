@@ -36,12 +36,13 @@ header .social-menu a {
 header .social-menu a:last-child {
   margin-right: 0;
 }
-.main-menu {
+.sidebar .main-menu {
   width: 270px;
   background-color: #26d2fc;
   margin-left: 165px;
+  margin-bottom: 1140px;
 }
-.main-menu .nav-item .nav-link {
+.sidebar .main-menu .nav-item .nav-link {
   display: block;
   height: 43px;
   padding-left: 42px;
@@ -50,28 +51,28 @@ header .social-menu a:last-child {
   line-height: 36px;
   text-transform: uppercase;
 }
-.main-menu .nav-item .nav-link:hover {
+.sidebar .main-menu .nav-item .nav-link:hover {
   color: #fff;
   background-color: #333;
 }
-.main-menu .nav-item .nav-link:active {
+.sidebar .main-menu .nav-item .nav-link:active {
   color: #ccc;
 }
-.main-menu .nav-item .dropdown-menu {
+.sidebar .main-menu .nav-item .dropdown-menu {
   width: 155px;
   background-color: #75e3fe;
   padding: 0;
   margin: 0;
   list-style: square;
 }
-.main-menu .nav-item .dropdown-menu .dropdown-item {
+.sidebar .main-menu .nav-item .dropdown-menu .dropdown-item {
   display: block;
   font-family: "Roboto - Black";
   font-size: 14px;
   line-height: 36px;
   text-transform: uppercase;
 }
-.main-menu .nav-item .nav-link.title {
+.sidebar .main-menu .nav-item .nav-link.title {
   height: 66px;
   background-color: #333;
   font-weight: 700;
@@ -79,6 +80,44 @@ header .social-menu a:last-child {
   text-transform: uppercase;
   color: #fff;
 }
-.main-menu .dropright .dropdown-toggle::after {
+.sidebar .main-menu .dropright .dropdown-toggle::after {
   margin-left: 140px;
+}
+.sidebar .banner {
+  width: 270px;
+  height: 300px;
+  background-color: #eaeaea;
+  margin-left: 165px;
+  padding-left: 142px;
+  padding-top: 130px;
+}
+.sidebar .banner p {
+  color: #333333;
+  font-family: "Raleway - Heavy";
+  font-size: 36px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.breadcrumb {
+  background-color: transparent;
+  margin-top: 25px;
+}
+.breadcrumb .breadcrumb-item {
+  color: #989898;
+}
+.breadcrumb .breadcrumb-item a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.breadcrumb .breadcrumb-item a:active {
+  background-color: #faef03;
+}
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: ">>";
+  background-color: #f8f8f8;
+}
+.breadcrumb .breadcrumb-item.active a {
+  background-color: #faef03;
 }
