@@ -158,24 +158,33 @@ header .social-menu a:active {
 .product .product-item .item .item-carousel .item-carousel-photo:last-child {
   margin-right: 0;
 }
-.product .description {
+.description {
   width: 438px;
 }
-.product .description h3 {
+.description .description-top h3 {
   color: #353535;
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 53px;
 }
-.product .description .price {
+.description .description-top .price {
   color: #111111;
   font-family: "Roboto - Medium Italic";
   font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
   line-height: 21.01px;
+  margin-bottom: 52px;
 }
-.product .description .title {
+.description .description-top .title {
+  color: #353535;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.description .description-top p {
   color: #707070;
   line-height: 16px;
+  width: 438px;
 }
