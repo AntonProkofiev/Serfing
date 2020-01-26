@@ -139,6 +139,12 @@ header .social-menu a:active {
   width: 370px;
   height: 370px;
 }
+.product .product-item .item:hover {
+  box-shadow: 0 0 10px #ccc;
+}
+.product .product-item .item:active {
+  box-shadow: 0 0 10px #000;
+}
 .product .product-item .item .item-photo {
   margin-bottom: 24px;
   border: 2px solid #eeeeee;
@@ -155,11 +161,21 @@ header .social-menu a:active {
   display: inline-block;
   margin-right: 25px;
 }
+.product .product-item .item .item-carousel .item-carousel-photo:hover {
+  box-shadow: 0 0 10px #ccc;
+}
+.product .product-item .item .item-carousel .item-carousel-photo:active {
+  box-shadow: 0 0 10px #000;
+}
 .product .product-item .item .item-carousel .item-carousel-photo:last-child {
   margin-right: 0;
 }
 .description {
   width: 438px;
+}
+.description .description-top hr {
+  background-color: #333333;
+  opacity: 0.1;
 }
 .description .description-top h3 {
   color: #353535;
@@ -187,4 +203,21 @@ header .social-menu a:active {
   color: #707070;
   line-height: 16px;
   width: 438px;
+}
+.description .description-bottom .add-cart {
+  width: 130px;
+  height: 48px;
+  background-color: #fb4d01;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 35px;
+  text-transform: uppercase;
+  margin-bottom: 61px;
+  margin: 0 auto;
+}
+.description .description-bottom .add-cart:hover {
+  box-shadow: 0 0 10px #000;
+}
+.description .description-bottom .add-cart:active {
+  color: #000;
 }

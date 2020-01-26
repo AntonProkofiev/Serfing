@@ -186,6 +186,14 @@ header {
             width: 370px;
             height: 370px;
 
+            &:hover {
+                box-shadow: 0 0 10px #ccc;
+            }
+
+            &:active {
+                box-shadow: 0 0 10px #000;
+            }
+
             .item-photo {
                 margin-bottom: 24px;
                 border: 2px solid #eeeeee;
@@ -202,6 +210,14 @@ header {
                     background-color: #eaeaea;
                     display: inline-block;
                     margin-right: 25px;
+
+                    &:hover {
+                        box-shadow: 0 0 10px #ccc;
+                    }
+
+                    &:active {
+                        box-shadow: 0 0 10px #000;
+                    }
 
 
                     &:last-child {
@@ -220,6 +236,12 @@ header {
     width: 438px;
 
     .description-top {
+
+        hr {
+            background-color: #333333;
+            opacity: 0.1;
+        }
+
         h3 {
             color: #353535;
             font-size: 24px;
@@ -236,6 +258,7 @@ header {
             text-transform: uppercase;
             line-height: 21.01px;
             margin-bottom: 52px;
+
         }
 
         .title {
@@ -252,5 +275,27 @@ header {
         }
     }
 
+    .description-bottom {
 
+
+        .add-cart {
+            width: 130px;
+            height: 48px;
+            background-color: #fb4d01;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 35px;
+            text-transform: uppercase;
+            margin-bottom: 61px;
+            margin: 0 auto;
+
+            &:hover {
+                box-shadow: 0 0 10px #000;
+            }
+
+            &:active {
+                color: #000;
+            }
+        }
+    }
 }
