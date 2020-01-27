@@ -1,0 +1,409 @@
+body {
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+// header
+
+header {
+    height: 350px;
+    background-color: #abeafa;
+
+    .logo {
+        display: block;
+        width: 125px;
+        height: 111px;
+        background: url('img/surfhouse_logo.png') no-repeat;
+        margin-top: 24px;
+        margin-left: 234px;
+    }
+
+    .social-menu {
+        margin-right: 229px;
+        margin-top: 50px;
+
+        a {
+            width: 16px;
+            height: 16px;
+            color: #f8f8f8;
+            margin-right: 12px;
+            font-size: 16px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &:hover {
+                color: #000;
+            }
+
+            &:active {
+                color: #faef03;
+            }
+        }
+    }
+}
+
+//main
+
+.sidebar {
+
+    .main-menu {
+        width: 270px;
+        background-color: #26d2fc;
+        margin-left: 165px;
+        margin-bottom: 1140px;
+        margin-right: 38px;
+
+
+        .nav-item {
+            .nav-link {
+                display: block;
+                height: 43px;
+                padding-left: 42px;
+                font-family: "Roboto - Black";
+                font-size: 14px;
+                line-height: 36px;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #333;
+                }
+
+                &:active {
+                    color: #ccc;
+                }
+            }
+
+            .dropdown-menu {
+                width: 155px;
+                background-color: #75e3fe;
+                padding: 0;
+                margin: 0;
+                list-style: square;
+
+                .dropdown-item {
+                    display: block;
+                    font-family: "Roboto - Black";
+                    font-size: 14px;
+                    line-height: 36px;
+                    text-transform: uppercase
+                }
+            }
+        }
+
+
+        .nav-item .nav-link.title {
+            height: 66px;
+            background-color: #333;
+            font-weight: 700;
+            line-height: 55px;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .dropright {
+            .dropdown-toggle {
+                &::after {
+                    margin-left: 140px;
+                }
+            }
+        }
+    }
+
+    .banner {
+        width: 270px;
+        height: 300px;
+        background-color: #eaeaea;
+        margin-left: 165px;
+        padding-left: 142px;
+        padding-top: 130px;
+
+        p {
+            color: #333333;
+            font-family: "Raleway - Heavy";
+            font-size: 36px;
+            font-weight: 700;
+            font-style: italic;
+            line-height: 36px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.breadcrumb {
+    background-color: transparent;
+    margin-top: 25px;
+
+    .breadcrumb-item {
+        color: #989898;
+
+        a {
+            &:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+            &:active {
+                background-color: #faef03;
+            }
+        }
+    }
+
+    .breadcrumb-item + .breadcrumb-item {
+        &::before {
+            content: ">>";
+            background-color: #f8f8f8;
+        }
+    }
+
+    .breadcrumb-item.active {
+        a {
+            background-color: #faef03;
+        }
+    }
+}
+
+.product {
+    .product-item {
+        margin-right: 45px;
+
+        .item {
+            width: 370px;
+            height: 370px;
+
+            &:hover {
+                box-shadow: 0 0 10px #ccc;
+            }
+
+            &:active {
+                box-shadow: 0 0 10px #000;
+            }
+
+            .item-photo {
+                margin-bottom: 24px;
+                border: 2px solid #eeeeee;
+                background-color: #eaeaea;
+            }
+
+            .item-carousel {
+                padding-left: 30px;
+                padding-right: 30px;
+
+                .item-carousel-photo {
+                    width: 100px;
+                    height: 100px;
+                    background-color: #eaeaea;
+                    display: inline-block;
+
+                    &:hover {
+                        box-shadow: 0 0 10px #ccc;
+                    }
+
+                    &:active {
+                        box-shadow: 0 0 10px #000;
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.description {
+    width: 438px;
+
+    .description-top {
+
+        hr {
+            background-color: #333333;
+            opacity: 0.1;
+        }
+
+        h3 {
+            color: #353535;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 53px;
+        }
+
+        .price {
+            color: #111111;
+            font-family: "Roboto - Medium Italic";
+            font-size: 22px;
+            font-weight: 400;
+            text-transform: uppercase;
+            line-height: 21.01px;
+            margin-bottom: 52px;
+
+        }
+
+        .title {
+            color: #353535;
+            line-height: 20px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #707070;
+            line-height: 16px;
+        }
+    }
+
+    .description-bottom {
+
+
+        .add-cart {
+            width: 130px;
+            height: 48px;
+            background-color: #fb4d01;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 35px;
+            text-transform: uppercase;
+            margin-bottom: 61px;
+            margin: 0 auto;
+
+            &:hover {
+                box-shadow: 0 0 10px #000;
+            }
+
+            &:active {
+                color: #000;
+            }
+        }
+    }
+}
+
+.tabs {
+
+    .btn {
+        width: 160px;
+        height: 35px;
+        background-color: #26d2fc;
+        color: #333333;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 176px;
+    }
+
+    .tabs-description {
+        border: 1px solid #d6d4d4;
+        padding-left: 13px;
+        padding-top: 12px;
+        padding-bottom: 21px;
+        padding-right: 23px;
+        margin-bottom: 100px;
+
+        p {
+            color: #808080;
+            font-family: Verdana;
+            font-size: 11px;
+            line-height: 15px;
+            padding-top: 22px;
+        }
+    }
+
+
+}
+
+.catalog {
+
+    .title-catalog {
+        color: #333333;
+        font-family: "Raleway - Extra Bold";
+        font-size: 30px;
+        font-style: italic;
+        text-transform: uppercase;
+        padding-bottom: 80px;
+    }
+
+    .item-catalog {
+        width: 271px;
+        height: 320px;
+        margin-bottom: 108px;
+
+        .image-catalog {
+            height: 235px;
+            background-color: #eaeaea;
+
+            &:hover {
+                box-shadow: 0 0 10px #ccc;
+            }
+
+            &:active {
+                box-shadow: 0 0 10px #000;
+            }
+        }
+
+        .description-catalog {
+            background-color: #ffffff;
+            padding-top: 25px;
+            padding-bottom: 45px;
+            height: 80px;
+
+
+
+            .item-name {
+                width: 136px;
+                display: inline-block;
+                color: #333333;
+                font-family: "Roboto - Black Italic";
+                font-size: 14px;
+                line-height: 18px;
+                text-transform: uppercase;
+                padding-left: 29px;
+                font-weight: 700;
+                font-style: italic;
+                vertical-align: top;
+            }
+
+
+            .item-price {
+                display: inline-block;
+                color: #333333;
+                font-family: "Roboto - Black Italic";
+                font-size: 18px;
+                font-weight: 700;
+                padding-left: 12px;
+                font-style: italic;
+                padding-right: 10px;
+            }
+
+            .item-price-discont {
+                display: inline-block;
+                color: #e24602;
+                font-family: "Roboto - Black Italic";
+                font-size: 14px;
+                font-weight: 700;
+                text-decoration: line-through;
+                font-style: italic;
+                margin-top: 25px;
+                margin-right: -73px;
+            }
+        }
+    }
+}
