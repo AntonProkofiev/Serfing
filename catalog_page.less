@@ -338,13 +338,13 @@ header {
         font-size: 30px;
         font-style: italic;
         text-transform: uppercase;
-        margin-bottom: 30px;
         padding-bottom: 80px;
     }
 
     .item-catalog {
         width: 271px;
         height: 320px;
+        margin-bottom: 108px;
 
         .image-catalog {
             height: 235px;
@@ -362,8 +362,14 @@ header {
         .description-catalog {
             background-color: #ffffff;
             padding-top: 25px;
+            padding-bottom: 45px;
+            height: 80px;
+
+
 
             .item-name {
+                width: 136px;
+                display: inline-block;
                 color: #333333;
                 font-family: "Roboto - Black Italic";
                 font-size: 14px;
@@ -372,6 +378,31 @@ header {
                 padding-left: 29px;
                 font-weight: 700;
                 font-style: italic;
+                vertical-align: top;
+            }
+
+
+            .item-price {
+                display: inline-block;
+                color: #333333;
+                font-family: "Roboto - Black Italic";
+                font-size: 18px;
+                font-weight: 700;
+                padding-left: 12px;
+                font-style: italic;
+                padding-right: 10px;
+            }
+
+            .item-price-discont {
+                display: inline-block;
+                color: #e24602;
+                font-family: "Roboto - Black Italic";
+                font-size: 14px;
+                font-weight: 700;
+                text-decoration: line-through;
+                font-style: italic;
+                margin-top: 25px;
+                margin-right: -73px;
             }
         }
     }

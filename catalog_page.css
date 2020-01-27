@@ -250,16 +250,16 @@ header .social-menu a:active {
   font-size: 30px;
   font-style: italic;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  padding-bottom: 80px;
 }
 .catalog .item-catalog {
   width: 271px;
   height: 320px;
+  margin-bottom: 108px;
 }
 .catalog .item-catalog .image-catalog {
   height: 235px;
   background-color: #eaeaea;
-  margin-bottom: 25px;
 }
 .catalog .item-catalog .image-catalog:hover {
   box-shadow: 0 0 10px #ccc;
@@ -269,8 +269,13 @@ header .social-menu a:active {
 }
 .catalog .item-catalog .description-catalog {
   background-color: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  height: 80px;
 }
 .catalog .item-catalog .description-catalog .item-name {
+  width: 136px;
+  display: inline-block;
   color: #333333;
   font-family: "Roboto - Black Italic";
   font-size: 14px;
@@ -279,4 +284,26 @@ header .social-menu a:active {
   padding-left: 29px;
   font-weight: 700;
   font-style: italic;
+  vertical-align: top;
+}
+.catalog .item-catalog .description-catalog .item-price {
+  display: inline-block;
+  color: #333333;
+  font-family: "Roboto - Black Italic";
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 12px;
+  font-style: italic;
+  padding-right: 10px;
+}
+.catalog .item-catalog .description-catalog .item-price-discont {
+  display: inline-block;
+  color: #e24602;
+  font-family: "Roboto - Black Italic";
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: line-through;
+  font-style: italic;
+  margin-top: 25px;
+  margin-right: -73px;
 }
