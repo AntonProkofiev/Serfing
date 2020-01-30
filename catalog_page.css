@@ -46,8 +46,10 @@ header .social-menu a:hover {
 header .social-menu a:active {
   color: #faef03;
 }
+.sidebar {
+  margin-right: 20px;
+}
 .sidebar .main-menu {
-  width: 270px;
   background-color: #26d2fc;
   margin-left: 165px;
   margin-bottom: 1140px;
@@ -70,7 +72,6 @@ header .social-menu a:active {
   color: #ccc;
 }
 .sidebar .main-menu .nav-item .dropdown-menu {
-  width: 155px;
   background-color: #75e3fe;
   padding: 0;
   margin: 0;
@@ -95,7 +96,6 @@ header .social-menu a:active {
   margin-left: 140px;
 }
 .sidebar .banner {
-  width: 270px;
   height: 300px;
   background-color: #eaeaea;
   margin-left: 165px;
@@ -136,7 +136,6 @@ header .social-menu a:active {
   margin-right: 45px;
 }
 .product .product-item .item {
-  width: 370px;
   height: 370px;
 }
 .product .product-item .item:hover {
@@ -168,9 +167,6 @@ header .social-menu a:active {
 }
 .product .product-item .item .item-carousel .item-carousel-photo:last-child {
   margin-right: 0;
-}
-.description {
-  width: 438px;
 }
 .description .description-top hr {
   background-color: #333333;
