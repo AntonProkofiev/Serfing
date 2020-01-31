@@ -43,6 +43,53 @@ header {
     }
 }
 
+// main
+
+.sidebar {
+
+    .navbar-nav {
+        width: 270px;
+        margin-left: 10%;
+
+        .nav-item {
+            .nav-link {
+                text-transform: uppercase;
+                background-color: #26d2fc;
+                font-size: 14px;
+                line-height: 36px;
+                color: #000000;
+                font-weight: 900;
+
+                &:hover {
+                    background-color: #333333;
+                    color: #ffffff;
+                }
+
+                &:active {
+                    color: #fff51f;
+                }
+            }
+
+        }
+
+        .nav-item.active {
+            height: 65px;
+            background-color: #333333;
+
+            .nav-link {
+                color: #fff;
+                line-height: 50px;
+                background-color: #333333;
+            }
+        }
+    }
+
+}
+
+
+
+
+
 @media (max-width: 768px) {
 
     .facebook {
