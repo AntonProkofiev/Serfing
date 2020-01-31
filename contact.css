@@ -32,6 +32,7 @@ header .navbar .navbar-nav .nav-item .nav-link:active {
 .sidebar .navbar-nav {
   width: 270px;
   margin-left: 10%;
+  margin-right: 10%;
 }
 .sidebar .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
