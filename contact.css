@@ -5,6 +5,13 @@ body {
   font-style: normal;
   background-color: #f8f8f8;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
 header {
   height: 350px;
   background: url('img/header.jpg') no-repeat 15% 40%;
@@ -29,12 +36,25 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
 header .navbar .navbar-nav .nav-item .nav-link:active {
   color: #fff51f;
 }
-.sidebar .navbar-nav {
+.sidebar .dropdown {
   width: 270px;
   margin-left: 10%;
   margin-right: 10%;
 }
-.sidebar .navbar-nav .nav-item .nav-link {
+.sidebar .dropdown .btn {
+  width: 100%;
+  height: 65px;
+  background-color: #333333;
+  color: #fff;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.sidebar .dropdown .dropdown-menu {
+  padding: 0;
+}
+.sidebar .dropdown .dropdown-menu .dropdown-item {
+  width: 270px;
   text-transform: uppercase;
   background-color: #26d2fc;
   font-size: 14px;
@@ -42,23 +62,34 @@ header .navbar .navbar-nav .nav-item .nav-link:active {
   color: #000000;
   font-weight: 900;
 }
-.sidebar .navbar-nav .nav-item .nav-link:hover {
+.sidebar .dropdown .dropdown-menu .dropdown-item:hover {
   background-color: #333333;
   color: #ffffff;
 }
-.sidebar .navbar-nav .nav-item .nav-link:active {
+.sidebar .dropdown .dropdown-menu .dropdown-item:active {
   color: #fff51f;
 }
-.sidebar .navbar-nav .nav-item.active {
-  height: 65px;
-  background-color: #333333;
+.content .breadcrumb {
+  background-color: transparent;
 }
-.sidebar .navbar-nav .nav-item.active .nav-link {
-  color: #fff;
-  line-height: 50px;
-  background-color: #333333;
+.content .breadcrumb .breadcrumb-item {
+  color: #989898;
 }
-@media (max-width: 768px) {
+.content .breadcrumb .breadcrumb-item a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.content .breadcrumb .breadcrumb-item a:active {
+  background-color: #faef03;
+}
+.content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: ">>";
+  background-color: #f8f8f8;
+}
+.content .breadcrumb .breadcrumb-item.active {
+  background-color: #faef03;
+}
+@media (max-width: 767.98px) {
   .facebook {
     background-color: #3b5998;
   }
