@@ -36,10 +36,13 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
 header .navbar .navbar-nav .nav-item .nav-link:active {
   color: #fff51f;
 }
+.sidebar {
+  height: 1000px;
+}
 .sidebar .dropdown {
   width: 270px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 10%;
+  margin-bottom: 100%;
 }
 .sidebar .dropdown .btn {
   width: 100%;
@@ -69,8 +72,19 @@ header .navbar .navbar-nav .nav-item .nav-link:active {
 .sidebar .dropdown .dropdown-menu .dropdown-item:active {
   color: #fff51f;
 }
+.sidebar .jumbotron {
+  width: 270px;
+  font-size: 36px;
+  line-height: 36px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 .content .breadcrumb {
   background-color: transparent;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .content .breadcrumb .breadcrumb-item {
   color: #989898;
@@ -83,11 +97,48 @@ header .navbar .navbar-nav .nav-item .nav-link:active {
   background-color: #faef03;
 }
 .content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-  content: ">>";
+  content: " >> ";
   background-color: #f8f8f8;
 }
-.content .breadcrumb .breadcrumb-item.active {
+.content .breadcrumb .breadcrumb-item.active a {
   background-color: #faef03;
+}
+.content .main-content .form {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #333333;
+  font-weight: 700;
+}
+.content .main-content .form input {
+  width: 95%;
+  padding: 5px;
+  color: #aaaaaa;
+  margin-bottom: 5%;
+}
+.content .main-content .form input[placeholder]:hover {
+  font-size: 12px;
+  background-color: #faef03;
+  color: #000;
+}
+.content .main-content .form input textarea {
+  padding: 5px;
+  color: #aaaaaa;
+  margin-bottom: 5%;
+}
+.content .main-content .about-us b {
+  font-size: 18px;
+  line-height: 14px;
+  color: #353535;
+}
+.content .main-content .about-us p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #777777;
+}
+.content .main-content .about-us .tel {
+  font-size: 20px;
+  line-height: 21px;
+  color: #333333;
 }
 @media (max-width: 767.98px) {
   .facebook {
