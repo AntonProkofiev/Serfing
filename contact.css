@@ -7,7 +7,7 @@ body {
 }
 header {
   height: 350px;
-  background-color: #abeafa;
+  background: url('img/header.jpg') no-repeat 15% 40%;
 }
 header .navbar .navbar-brand {
   width: 130px;
@@ -17,7 +17,6 @@ header .navbar .navbar-brand {
   margin-left: 10%;
 }
 header .navbar .navbar-nav {
-  background-color: #bdc9cc;
   margin-right: 10%;
   margin-left: 10%;
 }
@@ -30,7 +29,7 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
 header .navbar .navbar-nav .nav-item .nav-link:active {
   color: #fff51f;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .facebook {
     background-color: #3b5998;
   }
@@ -41,7 +40,7 @@ header .navbar .navbar-nav .nav-item .nav-link:active {
     background-color: #b2071d;
   }
   .pinterest {
-    background-color: #c8232c;
+    background-color: #c8232f;
   }
   .instagram {
     background-color: #3f729b;
